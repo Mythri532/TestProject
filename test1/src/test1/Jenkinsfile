@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "your-dockerhub-username/hello-java:latest"
+        DOCKER_IMAGE = "76625/testproject"
         DOCKER_CREDENTIALS_ID = "dockerhub-creds"
         KUBECONFIG_CREDENTIALS_ID = "kubeconfig-creds"
     }
