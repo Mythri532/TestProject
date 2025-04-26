@@ -1,4 +1,6 @@
-FROM openjdk:17
-COPY hello.jar ..
+FROM openjdk:17-alpine
+COPY App.java /app/App.java
 WORKDIR /app
-CMD ["java", "-jar", "hello.jar"]
+RUN javac App.java
+CMD ["java", "App"]
+
