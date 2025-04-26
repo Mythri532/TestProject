@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/your-repo/your-java-app.git'
+                git 'https://github.com/Mythri532/TestProject.git'
             }
         }
 
